@@ -1,20 +1,8 @@
 <h1 align="center">Prometheus</h1>
 
-This is the official github repository for [Prometheus: Inducing Fine-grained Evaluation Capability in Language Models](https://arxiv.org/abs/2310.08491).
-
 
 Prometheus is an evaluator LM that is open-source, offers reproducible evaluation, and inexpensive to use. Specifically designed for fine-grained evaluation on a customized score rubric, Prometheus is a good alternative for human evaluation and GPT-4 evaluation.
 
-
-Citation:
-```
-@article{kim2023prometheus,
-  title={Prometheus: Inducing Fine-grained Evaluation Capability in Language Models},
-  author={Kim, Seungone and Shin, Jamin and Cho, Yejin and Jang, Joel and Longpre, Shayne and Lee, Hwaran and Yun, Sangdoo and Shin, Seongjin and Kim, Sungdong and Thorne, James and others},
-  journal={arXiv preprint arXiv:2310.08491},
-  year={2023}
-}
-```
 ### Setup
 
 Install dependencies
@@ -64,7 +52,7 @@ Also, we use the following output format.
 
 During inference, you could parse the score by splitting the number that is generated next to the \[RESULT\] phrase.
 
-We also have the Feedback Collection dataset used to train Prometheus at this [link](https://huggingface.co/datasets/kaist-ai/Feedback-Collection).
+We also have the Feedback Collection dataset used to train Prometheus at this anonoymous link.
 
 ### Training an Evaluator LM
 
